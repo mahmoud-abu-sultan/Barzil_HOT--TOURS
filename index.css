@@ -1,0 +1,133 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* -------------------- header */
+header{
+    flex-wrap: wrap;
+    /* background-image: url("../Hot Tours/img/back.png");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(151, 151, 151, 0.123);
+    position: relative;
+}
+#h_img{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+header .lin_header > hr{
+    display: inline;
+    width: 45%;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    height: 2px;
+    margin: 10px 20px;
+}
+header .lin_header > img{
+    display: inline;
+    width: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.left_hr{
+    float: left;
+}
+.right_hr{
+    float: right;
+}
+header > #barzil{
+    font-family: "Segoe Script";
+    font-size: 50px;
+    margin-left: auto;
+    margin-top: 0%;
+    padding: 0px;
+}
+header > #barzil a{
+    color: white;
+    text-decoration: none;
+}
+header > #barzil >span{
+    display: block;
+    font-size: 15px;
+    color: rgb(223, 219, 219);
+    margin-top: -30px;
+    padding: 0px;
+}
+header nav{
+    margin-bottom: 20px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Bahnschrift SemiBold";
+}/* hover */
+header nav a:hover{
+    color: rgb(248, 173, 87);
+    transition: 0.2s;
+}
+header .a01{
+    margin-right: 30px;
+}
+header #slid1{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Bahnschrift SemiBold";
+}
+header #slid1 > h1{
+    font-size: 80px;
+    color: white;
+    margin: 0px;
+}
+header #slid1 > h2{
+    font-size: 30px;
+    font-family: "Calibri";
+    font-weight: 400;
+    color: rgb(243, 235, 235);
+    margin-top: -20px;
+}
+header #slid1 > h3{
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    margin: -20px;
+}
+header ul{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+header ul > a{
+    margin: 0px;
+    color: rgb(248, 173, 87);
+    float: left;
+}
+header ul > #ul10{
+    color: rgb(204, 204, 204);
+    margin-right: 20px;
+    margin-left: -10px;
+}
+header > #slids{
+    display: flex;
+    margin: 30px 100px;
+    justify-content: space-between;
+}
+header .slids_0{
+    width: 18%;
+    height: 250px;
+    padding: 30px;
+    background-color: rgb(248, 211, 46);
+}
+header .slids_0 > div{
+    margin-top: 60px;
+}
+header .slids_0 > img{
+    /* border-radius: 200px; */
+    background-color: transparent;
+}
+/* -------------------- END header */
